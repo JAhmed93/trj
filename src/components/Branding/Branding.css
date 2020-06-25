@@ -1,0 +1,13 @@
+.Branding {
+  background-color: black !important;
+  font-size: 2rem !important;
+  color: #3efc06 !important;
+  height: 60vh;
+  border-radius: 0 !important;
+}
+
+@media (max-width: 720px) {
+  .Branding h1 {
+    font-size: 1.5rem;
+  }
+}

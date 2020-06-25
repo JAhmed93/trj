@@ -1,0 +1,23 @@
+.Feedback {
+  background-color: black !important;
+  height: 500px;
+  color: #3efc06 !important;
+}
+
+h2 {
+  color: #3efc06 !important;
+}
+
+.CardFeedback {
+  background-color: #3d3d3d !important;
+}
+
+.scaleText {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+  .scaleText {
+    font-size: 12px;
+  }
+}
