@@ -7,12 +7,12 @@ import "../Feedback/Feedback.css";
 
 const feedback = () => {
   return (
-    <Container fluid className="Feedback">
+    <Container fluid className="Feedback pb-4">
       <h2 className="mb-4 pt-3 text-center">
         See what people say about our games!
       </h2>
 
-      <Row className=" d-flex mx-auto flex-column">
+      <Row className=" d-flex mx-auto flex-column mb-4">
         <Col className="sm-4 my-4">
           <Card className="CardFeedback">
             <Card.Body>

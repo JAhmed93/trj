@@ -2,3 +2,11 @@
   background-color: #3d3d3d !important;
   color: #3efc06 !important;
 }
+
+.link {
+  color: #0505ff !important;
+}
+
+.link:hover {
+  color: #3efc06 !important;
+}
