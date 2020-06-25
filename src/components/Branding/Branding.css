@@ -11,3 +11,11 @@
     font-size: 1.5rem;
   }
 }
+
+.greenIcon {
+  color: #3efc06 !important;
+}
+
+i:hover {
+  color: #0505ff !important;
+}
