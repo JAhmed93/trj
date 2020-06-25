@@ -1,6 +1,6 @@
 .Feedback {
   background-color: black !important;
-  height: 500px;
+
   color: #3efc06 !important;
 }
 
@@ -13,11 +13,20 @@ h2 {
 }
 
 .scaleText {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
+@media (max-width: 580px) {
+  .scaleText {
+    font-size: 18px;
+  }
+}
 @media (max-width: 500px) {
   .scaleText {
-    font-size: 12px;
+    font-size: 14px;
   }
+}
+.card {
+}
+.card-text {
 }

@@ -9,9 +9,9 @@ const newsletter = () => {
   return (
     <Aux>
       <div className={classes.Newsletter}>
-        <h3 className="mb-4 pt-4 greenText">
+        <h2 className="mb-4 pt-4 greenText">
           Subscribe to our newsletter to receieve free stuff!
-        </h3>
+        </h2>
         <p className="my-4 greenText">
           Enter your full name and email address.
         </p>
@@ -21,7 +21,7 @@ const newsletter = () => {
               <Form.Group controlId="formBasicName">
                 <Form.Control
                   placeholder="Full name"
-                  className="w-50 mx-auto"
+                  className="w-75 mx-auto mb-4 text-center"
                 />
                 <Form.Text className="text-muted">
                   Please enter your full name.
@@ -33,7 +33,7 @@ const newsletter = () => {
                 <Form.Control
                   type="email"
                   placeholder="Email Address"
-                  className="w-50 mx-auto"
+                  className="w-75 mx-auto mb-4 text-center"
                 />
                 <Form.Text className="text-muted">
                   We'll never share your email with anyone else.
